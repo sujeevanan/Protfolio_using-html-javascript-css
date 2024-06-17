@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>personal protfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <nav>
+          <h1><span>Sujeevanan</span> Loganathan</h1>
+
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Protfolio</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+        <!-- <img src="./images/1.JPG" /> -->
+        <div class="home">
+          <div class="image"></div>
+          <div class="text">
+            <h2><span>W</span>eb <span>D</span>eveloper</h2>
+            <h1>Hi,I'm <span>Sujee</span>.....</h1>
+            <h3>From <span>S</span>RI <span>L</span>ANKA</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about -->
+    <div class="about">
+      <div class="container">
+        <div class="row">
+          <div class="colum-1">
+            <img src="./images/02.jpg" />
+          </div>
+          <div class="colum-2">
+            <h1><span>A</span>bout <span>M</span>e</h1>
+            <p>
+              "I'm a dedicated web developer with a passion for learning and
+              exploring new technologies in the ever-evolving field of ICT.
+              Beyond coding, I find joy in traveling to new places, immersing
+              myself in different cultures, and gaining fresh perspectives.
+              Reading books is another favorite pastime of mine, as it allows me
+              to delve into diverse subjects and expand my knowledge. As a
+              former sports enthusiast, I bring a competitive spirit and
+              discipline to my work, striving for excellence in every project I
+              undertake."
+            </p>
+            <div class="tabTitles">
+              <p class="tabLink activeLink" onclick="display('skills')">
+                Skills
+              </p>
+              <p class="tabLink" onclick="display('experience')">Experience</p>
+              <p class="tabLink" onclick="display('education')">Education</p>
+            </div>
+            <div
+              class="tabContents activeContent"
+              onclick="display('skills')"
+              id="skills"
+            >
+              <ul>
+                <li>
+                  <span>Web Developer</span> <br />
+                  React developer,Bootstrap,TailWind Css
+                </li>
+                <li>
+                  <span>Programmer</span> <br />
+                  java, javaScript
+                </li>
+                <li>
+                  <span>Designer</span> <br />
+                  photoshop, davinci Resolve
+                </li>
+              </ul>
+            </div>
+            <div
+              class="tabContents"
+              onclick="display('experience')"
+              id="experience"
+            >
+              <ul>
+                <li>
+                  <span>2023-2024</span> <br />
+                  worked at the university
+                </li>
+                <li>
+                  <span>2024-2025</span> <br />
+                  worked at a good company
+                </li>
+                <li>
+                  <span>2024-2025</span> <br />
+                  software Engineer
+                </li>
+              </ul>
+            </div>
+            <div
+              class="tabContents"
+              onclick="display('education')"
+              id="education"
+            >
+              <ul>
+                <li>
+                  <span>school</span> <br />
+                  lyceum international school
+                </li>
+                <li>
+                  <span>university</span> <br />
+                  Trincomalee Campus Eastern university
+                </li>
+                <li>
+                  <span>Degree</span> <br />
+                  Bsc.Computer Science
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- services -->
+    <div class="service">
+      <div class="container">
+        <h1><span>S</span>er<span>v</span>ices</h1>
+        <div class="serviceList">
+          <div>
+            <i class="fa-solid fa-hand-point-up"></i>
+            <h1>Designing</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+              modi aliquam molestiae possimus cum fugiat consequuntur illum ut.
+              Ab est nulla soluta corrupti! Eaque tempora at sapiente iure sed
+              consequatur.
+            </p>
+            <a href="">See More..</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-html5"></i>
+            <h1>Web Development</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+              modi aliquam molestiae possimus cum fugiat consequuntur illum ut.
+              Ab est nulla soluta corrupti! Eaque tempora at sapiente iure sed
+              consequatur.
+            </p>
+            <a href="">See More..</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-pinterest"></i>
+            <h1>Creativity</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+              modi aliquam molestiae possimus cum fugiat consequuntur illum ut.
+              Ab est nulla soluta corrupti! Eaque tempora at sapiente iure sed
+              consequatur.
+            </p>
+            <a href="">See More..</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- protfolio -->
+    <div class="protfolio">
+      <div class="container">
+        <h1><span>P</span>rotfolio</h1>
+        <div class="protlist">
+          <div class="work">
+            <img src="./images/work-1.png" />
+            <div class="layer">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                molestiae corporis incidunt, placeat sint atque iusto sed quasi
+                eligendi obcaecati, a, ea amet voluptates praesentium nulla
+                blanditiis dolorum facere dignissimos!
+              </p>
+              <i class="fa-solid fa-atom"></i>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/work-2.png" />
+            <div class="layer">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                molestiae corporis incidunt, placeat sint atque iusto sed quasi
+                eligendi obcaecati, a, ea amet voluptates praesentium nulla
+                blanditiis dolorum facere dignissimos!
+              </p>
+              <i class="fa-solid fa-atom"></i>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/work-3.png" />
+            <div class="layer">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                molestiae corporis incidunt, placeat sint atque iusto sed quasi
+                eligendi obcaecati, a, ea amet voluptates praesentium nulla
+                blanditiis dolorum facere dignissimos!
+              </p>
+              <i class="fa-solid fa-atom"></i>
+            </div>
+          </div>
+        </div>
+        <button class="protbtn">Click for more</button>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="contact">
+      <div class="row">
+        <div class="column-1">
+          <h1><span>C</span>ontact <span>M</span>e</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>lsujee2000@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>0763127299</p>
+
+          <div class="socialMedia">
+            <a href=""> <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/password/change/reason/"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://www.linkedin.com/feed/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://x.com/x/migrate"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href=""> <i class="fa-brands fa-github"></i></a>
+          </div>
+          <a href="./images/my-cv.pdf" download class="download">Download Cv</a>
+        </div>
+        <div class="column-2">
+          <form>
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="E-mail" />
+            <textarea name="description" placeholder="description"></textarea>
+            <button class="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
