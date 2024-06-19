@@ -82,6 +82,4 @@ Your Name - Sujeevanan Loganthan lsujee2000@gmail.com
 
 Project Link: [https://github.com/sujeevanan_loganathan/portfolio](https://github.com/yourusername/portfolio)
 
----
 
-Replace placeholders such as `yourusername`, `your-email@example.com`, and `link-to-screenshot.png` with your actual details. This README should give visitors a comprehensive overview of your portfolio project.
